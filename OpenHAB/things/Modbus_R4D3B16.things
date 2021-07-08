@@ -1,0 +1,121 @@
+//
+//	@author			Helge Klug
+//	@copyright		Copyright (c) 2021 Helge Klug
+//	@version		1.00
+//
+Bridge modbus:serial:R4D3B16 [ port="/dev/ttyUSB1", id=1, baud=9600, stopBits="1", parity="even", dataBits=8, encoding="rtu" ]
+{
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch001					[	start=1,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="1",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="1",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch002					[	start=2,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="2",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="2",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch003					[	start=3,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="3",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="3",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch004					[	start=4,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="4",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="4",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch005					[	start=5,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="5",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="5",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch006					[	start=6,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="6",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="6",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch007					[	start=7,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="7",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="7",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch008					[	start=8,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="8",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="8",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch009					[	start=9,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="9",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="9",		writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch010					[	start=10,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="10",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="10",	writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch011					[	start=11,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="11",			readValueType="uint16",						readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="11",	writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch012					[	start=12,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="12",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="12",	writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch013					[	start=13,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="13",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="13",	writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch014					[	start=14,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="14",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="14",	writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch015					[	start=15,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="15",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="15",	writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+	//-------------------------------------------------------------------------
+	Bridge poller ch016					[	start=16,			length=1,	refresh=5000,	type="holding" ]
+	{
+		Thing data	simpleOnOff			[	readStart="16",		readValueType="uint16",							readTransform="JS(R4D3B16_ChannelStatusOnOff.js)",
+											writeStart="16",	writeValueType="uint16", writeType="holding",	writeTransform="JS(R4D3B16_ChannelControlOnOff.js)"		]
+	}
+
+}

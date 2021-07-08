@@ -1,0 +1,22 @@
+sitemap Modbus_R4D3B16 label="Modbus 4D3B16 Demo"
+{
+	Frame item=gR4D3B16
+	{
+		Switch	item=R4D3B16_Ch001			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch002			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch003			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch004			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch005			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch006			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch007			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch008			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch009			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch010			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch011			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch012			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch013			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch014			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch015			mappings=[ON="AN", OFF="Aus"]
+		Switch	item=R4D3B16_Ch016			mappings=[ON="AN", OFF="Aus"]
+	}
+}
