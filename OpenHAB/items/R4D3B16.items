@@ -1,0 +1,24 @@
+//
+//	@author			Helge Klug
+//	@copyright		Copyright (c) 2021 Helge Klug
+//	@version		1.00
+
+Group:Switch:OR(ON,	OFF)		gR4D3B16			"RelayBoard R4D3B16 [(%d)]"	<switch>
+
+Switch							R4D3B16_Ch001		"Channel 01 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch001:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch002		"Channel 02 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch002:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch003		"Channel 03 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch003:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch004		"Channel 04 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch004:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch005		"Channel 05 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch005:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch006		"Channel 06 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch006:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch007		"Channel 07 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch007:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch008		"Channel 08 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch008:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch009		"Channel 09 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch009:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch010		"Channel 10 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch010:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch011		"Channel 11 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch011:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch012		"Channel 12 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch012:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch013		"Channel 13 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch013:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch014		"Channel 14 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch014:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch015		"Channel 15 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch015:simpleOnOff:switch"	}
+Switch							R4D3B16_Ch016		"Channel 16 []"				<switch>			(gR4D3B16)		{ channel="modbus:data:R4D3B16:ch016:simpleOnOff:switch"	}
+
